@@ -1,7 +1,7 @@
 provider aws {
 region = "us-east-1"
-access_key =
-secret_key =
+access_key = "AKIA27BLU3ZNK4HUCH4S"
+secret_key = "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"
 resource "aws_s3_bucket" "b" {
   bucket = "my-tf-test-bucket"
 
